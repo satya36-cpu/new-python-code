@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requirements.txt
-RUN pip install -r requirements.txt
+RUN python3 -m pip install -r requirements.txt
 
 # Expose port 8000 for the Flask application
 EXPOSE 8000

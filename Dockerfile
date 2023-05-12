@@ -8,6 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requirements.txt
+RUN sudo apt update
 RUN python3 -m pip install -r requirements.txt
 
 # Expose port 8000 for the Flask application

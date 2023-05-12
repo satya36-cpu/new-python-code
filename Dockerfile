@@ -1,4 +1,4 @@
-# Use an official Python runtime as a parent image
+# Use an official Python runtime as a parent images
 FROM python:3.9-slim-buster
 
 # Set the working directory to /app
